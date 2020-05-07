@@ -1,10 +1,10 @@
 ## Testing Out Inputs Into An Emulator
 Emulator being Used: **Visual Boy Advanced**  
-###Window Sizing for how it's currently run:  
+### Window Sizing for how it's currently run:  
 Utilising VBA's inbuilt x3 video scalar. Results will vary on your machine  
-#####Exact Dimensions: 
+##### Exact Dimensions: 
 900x665px
-#####Joypad Configureation
+##### Joypad Configureation
 |Button     |Key
 |:---       |:---
 |Up         |W
