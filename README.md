@@ -4,6 +4,22 @@ Emulator being Used: **Visual Boy Advanced**
 Utilising VBA's inbuilt x3 video scalar. Results will vary on your machine  
 #####Exact Dimensions: 
 900x665px
+#####Joypad Configureation
+|Button     |Key
+|:---       |:---
+|Up         |W
+|Down       |S
+|Left       |A
+|Right      |D
+|A Button   |Z
+|B Button   |X
+|L Button   |Unbounded
+|R Button   |Unbounded
+|Select     |BACKSPACE
+|Start      |ENTER
+|Speed      |SPACE
+|Capture    |F12
+|GS         |C
 
 Required Python Libraries
 - NumPy:  
@@ -12,4 +28,6 @@ Required Python Libraries
 `pip install Pillow`
 - CV2:  
 `pip install cv2`
+- Pynput:  
+`pip install pynput`
 
