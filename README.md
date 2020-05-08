@@ -12,6 +12,7 @@ Authored: Jeffrey Ng
 |Dimensions |Position 
 |:---       |:---
 |900x665px  |Top left most corner
+
 Note: We are utilising VBA's built-in x3 video scalar. Results will vary on your machine  
 ##### Joypad Configuration
 |Button     |Key

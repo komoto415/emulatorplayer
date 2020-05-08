@@ -40,11 +40,12 @@ def process_img(image):
 
 def main():
     running = False
-    print("Starting runner in", end="")
-    for i in reversed(list(range(5))):
-        print(f" {i + 1}...", end="")
+    print("Starting runner in")
+    time.sleep(1)
+    for i in reversed(range(5)):
+        print(f"{i + 1}...")
         time.sleep(1)
-    file = "TestKeys.txt"
+    file = "TestText.txt"
     if os.path.exists(file):
         while True:
             screen = np.array(ImageGrab.grab(bbox=(0, 65, 900, 665)))
@@ -56,7 +57,7 @@ def main():
                 running = True
                 with open(file, "r") as f:
                     for line in f.readlines()[:-1]:
-                        time.sleep(0.5)
+                        time.sleep(0.05)
                         key = line.strip()
                         PressKey(convert_key_to_scan_code(key))
             if cv2.waitKey(25) & 0xFF == ord('q'):
