@@ -23,11 +23,11 @@ def get_conversion_dict():
             "BACKSPACE": BACKSPACE,
             "ENTER": ENTER,
             "SPACE": SPACE
-        },
+            },
         "DS": {
 
-        },
-    }
+            },
+        }
     return emulator.get(DEVICE)
 
 def process_img(image):
@@ -51,7 +51,7 @@ def main():
             screen = np.array(ImageGrab.grab(bbox=(0, 65, 900, 665)))
             last_time = time.time()
             new_screen = process_img(screen)
-            cv2.imshow('window', new_screen)
+            cv2.imshow("window", new_screen)
             # cv2.imshow('window', cv2.cvtColor(screen, cv2.COLOR_BGR2RGB))
             if not running:
                 running = True
@@ -66,5 +66,5 @@ def main():
     else:
         print("Either your file doesn't exist, is named incorrectly or is in another castle")
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

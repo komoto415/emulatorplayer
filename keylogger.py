@@ -18,11 +18,11 @@ def get_key_whitelist():
         "GBA": [
             'W', 'A', 'S', 'D', 'Z', 'X',
             "BACKSPACE", "ENTER", "SPACE",
-        ],
+            ],
         "DS": [
 
-        ],
-    }
+            ],
+        }
     return whitelist.get(DEVICE)
 
 def on_press(key):
